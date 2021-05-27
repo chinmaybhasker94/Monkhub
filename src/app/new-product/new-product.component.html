@@ -1,0 +1,21 @@
+<strong>Products</strong>
+<br>
+<br>
+<div   style="display:flex ;">
+<div *ngFor="let obj of imgList" >
+<div class="card" style="width: 15rem;margin-right: 25px;">
+    <img class="card-img-top" src="{{obj}}" alt="Card image cap"  style="height: 170px;width: 75%;">
+    <div class="card-body">
+      <div style="text-align: center;"> 
+      <div>Category</div>
+      <div>Product Name Here</div>
+      <div>Price</div>
+      <hr>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<img  src="{{imgTitleUrl}}" alt="Card image cap"  style="height: 160px;width: 100%;">

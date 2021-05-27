@@ -1,0 +1,107 @@
+<strong>Top Selling</strong>
+<br>
+<br>
+<div style="display:flex ;">
+  <div *ngFor="let obj of imgList">
+    <div class="card" style="width: 15rem;margin-right: 25px;">
+      <img class="card-img-top" src="{{obj}}" alt="Card image cap" style="height: 170px;width: 75%;">
+      <div class="card-body">
+        <div style="text-align: center;">
+          <div>Category</div>
+          <div>Product Name Here</div>
+          <div>Price</div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<table class="table" style="border-bottom-width: 0px;">
+  <thead>
+    <tr>
+      <th scope="col">Top Selling</th>
+      <th scope="col">Top Selling</th>
+      <th scope="col">Top Selling</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="width:120px;">
+        <div  *ngFor="let obj of productList">
+          <div class="container-fluid">
+            <div class="row" style="width: fit-content;">
+              <div class="col">
+                <img src="{{obj}}" alt="Person" width="96" height="96">
+              </div>
+              <div class="col">
+                <div>
+                  Category
+                </div>
+                <div style="width: 103px;">
+                  Product Name
+                </div>
+                <div>
+                  $9800
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </td>
+      <td style="width:120px;">
+        <div  *ngFor="let obj of productList1">
+          <div class="container-fluid">
+            <div class="row" style="width: fit-content;">
+              <div class="col">
+                <img src="{{obj}}" alt="Person" width="96" height="96">
+              </div>
+              <div class="col">
+                <div>
+                  Category
+                </div>
+                <div style="width: 103px;">
+                  Product Name
+                </div>
+                <div>
+                  $9800
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </td>
+      <td style="width:120px;">
+        <div  *ngFor="let obj of productList2">
+          <div class="container-fluid">
+            <div class="row" style="width: fit-content;">
+              <div class="col">
+                <img src="{{obj}}" alt="Person" width="96" height="96">
+              </div>
+              <div class="col">
+                <div>
+                  Category
+                </div>
+                <div style="width: 103px;">
+                  Product Name
+                </div>
+                <div>
+                  $9800
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </td>
+    </tr>
+  </tbody>
+</table>
